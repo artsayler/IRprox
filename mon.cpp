@@ -5,13 +5,8 @@
 int main (void)
 {
 	  
-  int ipin = 0; // physical pin 11
-  int opin = 2; // physical pin 13
-  
-/*  UNCOMMENT THESE LINES FOR THE RASPBERRY PI
   int ipin = 17; // physical pin 11
   int opin = 27; // physical pin 13
-*/
 
   int x;
   int debounce = 100;  /* 100 uSec */
